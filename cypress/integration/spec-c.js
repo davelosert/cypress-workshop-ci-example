@@ -1,6 +1,6 @@
 /// <reference types="cypress" />
 
-describe('Example site', () => {
+describe('Example site C', () => {
   it('loads', () => {
     cy.visit('/')
     cy.contains('h1', 'cypress-workshop-ci-example').should('be.visible')
